@@ -9,11 +9,11 @@ assignees: ''
 
 # Format Metadata
 
-*Provide the standard metadata for the proposed format, ensuring that the id and name and unique and appropriate to the version of the format being proposed.*
+*Provide the standard metadata for the proposed format, ensuring that the id and name are unique and appropriate to the version of the format being proposed.*
 
 - formatId: 
 - formatName:
-- formatType: DATA
+- formatType: 
 - mediaType :
 - extension:
 
@@ -28,6 +28,10 @@ Example (delete before submitting):
 # Format description
 
 *Describe why a new format is needed, including items such as where the format type has been encountered, what software produces it, and what software can read it.*
+
+# Specification / Namespace documentation
+
+*Provide the location(s) of the documentation of the format specification or the namespace for the format or vocabulary.*
 
 # Checklist
 
