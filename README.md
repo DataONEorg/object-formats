@@ -21,4 +21,8 @@ To propose a new format identifier:
 
 - Create an issue describing the proposed identifier using the new format template
 - Discuss the format with the community
-- Create a Pull Request that creates the format in the XML dialect used in the formats file
+- Create a Pull Request that creates the format in the XML dialect used in the formats file. Name the branch for the pull request as `feature_#_format` where `#` is the issue number of the proposed format, and `format` is a short name for the proposed format (e.g., `feature_3_shapefile`).
+
+## Release process
+
+Periodically, when new formats have been approved, we will merge the submitted PRs to the `develop` branch, and test that all changes work together. When the file is ready for relrelease, we will merge the `develop` branch to master, and tag it with the release tag of the form `1.22`, representing the current format service data version. This will then be used to update the DataONE formats service.
