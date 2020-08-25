@@ -25,4 +25,4 @@ To propose a new format identifier:
 
 ## Release process
 
-Periodically, when new formats have been approved, we will merge the submitted PRs to the `develop` branch, and test that all changes work together. When the file is ready for relrelease, we will merge the `develop` branch to master, and tag it with the release tag of the form `1.22`, representing the current format service data version. This will then be used to update the DataONE formats service.
+Periodically, when new formats have been approved, we will merge the submitted PRs to the `develop` branch, and test that all changes work together. When the file is ready for release, we will merge the `develop` branch to master, and tag it with the release tag of the form `1.22`, representing the current format service data version. This will then be used to update the DataONE formats service.
