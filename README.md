@@ -5,7 +5,7 @@ key metadata for file and object formats used within the DataONE network (https:
 The goal of the list is to provide a unique identifier for each file format. The formatId
 is typically more specific than an associated Media Type, but sometimes they can be the same.
 For example, the `formatId` for PNG images is `image/png` and matches the media type `image/png`
-because the media type is specific to one file format. In contrast, the `formatId` for WaterML is
+because the media type is specific to one file format. In contrast, the `formatId` for METS is
 `http://www.loc.gov/METS/`, which is more specific than the Media type which is `text/xml` and which
 is shared across many formats in the XML family.
 
