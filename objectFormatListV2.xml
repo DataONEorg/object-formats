@@ -964,10 +964,10 @@
         <extension>xml</extension>
     </objectFormat>
     <objectFormat>
-        <formatId>application/x-shapefile-zipped</formatId>
-        <formatName>ESRI Shapefile (zipped)</formatName>
+        <formatId>application/vnd.shp+zip</formatId>
+        <formatName>Esri Shapefile (zipped)</formatName>
         <formatType>DATA</formatType>
-        <mediaType name="application/zip"/>
+        <mediaType name="application/vnd.shp+zip"/>
         <extension>zip</extension>
     </objectFormat>
 </d1v2:objectFormatList>
