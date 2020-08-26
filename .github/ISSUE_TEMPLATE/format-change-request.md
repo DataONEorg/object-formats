@@ -13,7 +13,7 @@ assignees: ''
 
 - formatName:
 - formatType: 
-- mediaType :
+- mediaType:
 - extension:
 
 # Rationale
