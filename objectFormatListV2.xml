@@ -126,7 +126,7 @@
     </objectFormat>
     <objectFormat>
         <formatId>http://www.cuahsi.org/waterML/1.1/</formatId>
-        <formatName>Water Markup Language, version 1.0</formatName>
+        <formatName>Water Markup Language, version 1.1</formatName>
         <formatType>METADATA</formatType>
         <mediaType name="text/xml"/>
         <extension>xml</extension>
