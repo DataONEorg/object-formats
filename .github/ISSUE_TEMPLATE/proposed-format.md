@@ -14,7 +14,7 @@ assignees: ''
 - formatId: 
 - formatName:
 - formatType: 
-- mediaType :
+- mediaType:
 - extension:
 
 Example (delete before submitting):
@@ -37,10 +37,14 @@ Example (delete before submitting):
 
 - [ ] The format is not a duplicate of another in the list under a different name or identifier
 - [ ] Format Identifier is unique
-- [ ] Format identifier is the commonly-used identifier for the namespace, or the best URI for the namespace
+- [ ] Format identifier is the commonly-used identifier for the namespace, or the best URI for the namespace, or the best Media type
 - [ ] Format identifier is same as the MIME media type if the mime type is specific to *only* this format (e.g., `image/png` is specific to one format, whereas `text/xml` is not specific to one format)
 - [ ] Format Name is recognizable and sensible
-- [ ] Format Name includes version info where applicable
+- [ ] Format includes version info where applicable in formatName and formatId
 - [ ] formatType is the correct type from the values: `DATA`, `METADATA`, or `RESOURCE`
 - [ ] MediaType is the most specific MIME media type that applies to the format
-- [ ] All extensions in widespread use are listed
+
+# Considerations
+
+*Describe or list any considerations that might impact the use of the format, or related issues that we should consider.*
+
