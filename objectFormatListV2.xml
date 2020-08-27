@@ -970,4 +970,18 @@
         <mediaType name="application/vnd.shp+zip"/>
         <extension>zip</extension>
     </objectFormat>
+    <objectFormat>
+        <formatId>image/geotiff</formatId>
+        <formatName>GeoTIFF</formatName>
+        <formatType>DATA</formatType>
+        <mediaType name="image/tiff"/>
+        <extension>tiff</extension>
+    </objectFormat>
+    <objectFormat>
+        <formatId>image/geotiff+zip</formatId>
+        <formatName>GeoTIFF (zipped)</formatName>
+        <formatType>DATA</formatType>
+        <mediaType name="image/tiff+zip"/>
+        <extension>zip</extension>
+    </objectFormat>
 </d1v2:objectFormatList>
