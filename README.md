@@ -1,3 +1,5 @@
+ [![v1.23](https://img.shields.io/badge/object--formats-v1.23-blue.svg)](https://github.com/DataONEorg/object-formats/releases/tag/v1.23)
+
 # object-formats
 
 The DataONE Object Formats controlled vocabulary is a simple vocabulary listing 
@@ -5,7 +7,7 @@ key metadata for file and object formats used within the DataONE network (https:
 The goal of the list is to provide a unique identifier for each file format. The formatId
 is typically more specific than an associated Media Type, but sometimes they can be the same.
 For example, the `formatId` for PNG images is `image/png` and matches the media type `image/png`
-because the media type is specific to one file format. In contrast, the `formatId` for WaterML is
+because the media type is specific to one file format. In contrast, the `formatId` for METS is
 `http://www.loc.gov/METS/`, which is more specific than the Media type which is `text/xml` and which
 is shared across many formats in the XML family.
 
@@ -25,4 +27,4 @@ To propose a new format identifier:
 
 ## Release process
 
-Periodically, when new formats have been approved, we will merge the submitted PRs to the `develop` branch, and test that all changes work together. When the file is ready for relrelease, we will merge the `develop` branch to master, and tag it with the release tag of the form `1.22`, representing the current format service data version. This will then be used to update the DataONE formats service.
+Periodically, when new formats have been approved, we will merge the submitted PRs to the `develop` branch, and test that all changes work together. When the file is ready for release, we will merge the `develop` branch to master, and tag it with the release tag of the form `v1.22`, representing the current format service data version. This will then be used to update the DataONE formats service.
