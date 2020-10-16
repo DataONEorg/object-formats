@@ -1,3 +1,5 @@
+ [![v1.23](https://img.shields.io/badge/object--formats-v1.23-blue.svg)](https://github.com/DataONEorg/object-formats/releases/tag/v1.23)
+
 # object-formats
 
 The DataONE Object Formats controlled vocabulary is a simple vocabulary listing 
