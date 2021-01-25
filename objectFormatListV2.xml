@@ -984,4 +984,11 @@
         <mediaType name="image/tiff+zip"/>
         <extension>zip</extension>
     </objectFormat>
+    <objectFormat>
+        <formatId>science-on-schema.org/Dataset/1.2;ld+json</formatId>
+        <formatName>JSON-LD metadata</formatName>
+        <formatType>METADATA</formatType>
+        <mediaType name="application/ld+json"/>
+        <extension>jsonld</extension>
+    </objectFormat>
 </d1v2:objectFormatList>
