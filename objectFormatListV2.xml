@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="/cn/xslt/dataone.types.v1.xsl"?>
-<d1v2:objectFormatList count="137" start="0" total="137" 
+<d1v2:objectFormatList count="139" start="0" total="139" 
     xmlns:d1v2="http://ns.dataone.org/service/types/v2.0" 
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
     xsi:schemaLocation="http://ns.dataone.org/service/types/v2.0 dataoneTypes_v2.0.xsd">
@@ -959,6 +959,20 @@
     <objectFormat>
         <formatId>https://purl.dataone.org/portals-1.0.0</formatId>
         <formatName>Dataset portals v1.0.0</formatName>
+        <formatType>METADATA</formatType>
+        <mediaType name="text/xml"/>
+        <extension>xml</extension>
+    </objectFormat>
+    <objectFormat>
+        <formatId>https://purl.dataone.org/collections-1.1.0</formatId>
+        <formatName>Dataset collections v1.1.0</formatName>
+        <formatType>METADATA</formatType>
+        <mediaType name="text/xml"/>
+        <extension>xml</extension>
+    </objectFormat>
+    <objectFormat>
+        <formatId>https://purl.dataone.org/portals-1.1.0</formatId>
+        <formatName>Dataset portals v1.1.0</formatName>
         <formatType>METADATA</formatType>
         <mediaType name="text/xml"/>
         <extension>xml</extension>
