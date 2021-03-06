@@ -1,6 +1,6 @@
- [![v1.24](https://img.shields.io/badge/object--formats-v1.24-blue.svg)](https://github.com/DataONEorg/object-formats/releases/tag/v1.24)
-![main](https://github.com/DataONEorg/object-formats/actions/workflows/validate.yml/badge.svg?branch=main)
-![develop](https://github.com/DataONEorg/object-formats/actions/workflows/validate.yml/badge.svg?branch=develop)
+ - Release: [![v1.24](https://img.shields.io/badge/object--formats-v1.24-blue.svg)](https://github.com/DataONEorg/object-formats/releases/tag/v1.24)
+- main: ![main](https://github.com/DataONEorg/object-formats/actions/workflows/validate.yml/badge.svg?branch=main)
+- develop: ![develop](https://github.com/DataONEorg/object-formats/actions/workflows/validate.yml/badge.svg?branch=develop)
 
 # object-formats
 
