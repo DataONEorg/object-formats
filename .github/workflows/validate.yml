@@ -25,13 +25,10 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
+      # Install xmlstarlet as a dependency
       - name: Install xmlstarlet
         run: sudo apt-get install xmlstarlet
   
-      # Runs a single command using the runners shell
+      # Validate the Object Formats document
       - name: Run a one-line script
         run: xmlstarlet val -e --net -s "http://ns.dataone.org/service/types/v2.0" objectFormatListV2.xml
-
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
