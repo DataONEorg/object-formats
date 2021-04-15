@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="/cn/xslt/dataone.types.v1.xsl"?>
-<d1v2:objectFormatList count="139" start="0" total="139" 
+<d1v2:objectFormatList count="140" start="0" total="140" 
     xmlns:d1v2="http://ns.dataone.org/service/types/v2.0" 
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
     xsi:schemaLocation="http://ns.dataone.org/service/types/v2.0 dataoneTypes_v2.0.xsd">
@@ -997,5 +997,12 @@
         <formatType>DATA</formatType>
         <mediaType name="image/tiff+zip"/>
         <extension>zip</extension>
+    </objectFormat>
+    <objectFormat>
+        <formatId>application/x-sh</formatId>
+        <formatName>Bourne shell script</formatName>
+        <formatType>DATA</formatType>
+        <mediaType name="application/x-sh"/>
+        <extension>sh</extension>
     </objectFormat>
 </d1v2:objectFormatList>
