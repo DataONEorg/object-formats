@@ -118,6 +118,34 @@
         <extension>nc</extension>
     </objectFormat>
     <objectFormat>
+        <formatId>CF-1.5</formatId>
+        <formatName>NetCDF Climate and Forecast Metadata Convention, version 1.5</formatName>
+        <formatType>DATA</formatType>
+        <mediaType name="application/netcdf"/>
+        <extension>nc</extension>
+    </objectFormat>
+    <objectFormat>
+        <formatId>CF-1.6</formatId>
+        <formatName>NetCDF Climate and Forecast Metadata Convention, version 1.6</formatName>
+        <formatType>DATA</formatType>
+        <mediaType name="application/netcdf"/>
+        <extension>nc</extension>
+    </objectFormat>
+    <objectFormat>
+        <formatId>CF-1.7</formatId>
+        <formatName>NetCDF Climate and Forecast Metadata Convention, version 1.7</formatName>
+        <formatType>DATA</formatType>
+        <mediaType name="application/netcdf"/>
+        <extension>nc</extension>
+    </objectFormat>
+    <objectFormat>
+        <formatId>netCDF-CF</formatId>
+        <formatName>NetCDF Climate and Forecast Metadata Convention</formatName>
+        <formatType>DATA</formatType>
+        <mediaType name="application/netcdf"/>
+        <extension>nc</extension>
+    </objectFormat>
+    <objectFormat>
         <formatId>http://www.cuahsi.org/waterML/1.0/</formatId>
         <formatName>Water Markup Language, version 1.0</formatName>
         <formatType>DATA</formatType>
