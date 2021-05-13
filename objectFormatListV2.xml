@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="/cn/xslt/dataone.types.v1.xsl"?>
-<d1v2:objectFormatList count="143" start="0" total="143" 
+<d1v2:objectFormatList count="144" start="0" total="144" 
     xmlns:d1v2="http://ns.dataone.org/service/types/v2.0" 
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
     xsi:schemaLocation="http://ns.dataone.org/service/types/v2.0 dataoneTypes_v2.0.xsd">
@@ -1025,5 +1025,12 @@
         <formatType>DATA</formatType>
         <mediaType name="application/x-ipynb+json"/>
         <extension>ipynb</extension>
+    </objectFormat>
+    <objectFormat>
+        <formatId>science-on-schema.org/Dataset;ld+json</formatId>
+        <formatName>JSON-LD metadata</formatName>
+        <formatType>METADATA</formatType>
+        <mediaType name="application/ld+json"/>
+        <extension>jsonld</extension>
     </objectFormat>
 </d1v2:objectFormatList>
