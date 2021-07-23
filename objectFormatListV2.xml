@@ -1040,4 +1040,11 @@
         <mediaType name="application/geopackage+sqlite3"/>
         <extension>gpkg</extension>
     </objectFormat>
+    <objectFormat>
+        <formatId>application/geo+json</formatId>
+        <formatName>GeoJSON</formatName>
+        <formatType>DATA</formatType>
+        <mediaType name="application/geo+json"/>
+        <extension>json</extension>
+    </objectFormat>
 </d1v2:objectFormatList>
