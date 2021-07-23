@@ -1047,4 +1047,11 @@
         <mediaType name="application/geo+json"/>
         <extension>json</extension>
     </objectFormat>
+    <objectFormat>
+        <formatId>application/vnd.gdb+zip</formatId>
+        <formatName>Esri File Geodatabase (zipped)</formatName>
+        <formatType>DATA</formatType>
+        <mediaType name="application/vnd.gdb+zip"/>
+        <extension>zip</extension>
+    </objectFormat>
 </d1v2:objectFormatList>
