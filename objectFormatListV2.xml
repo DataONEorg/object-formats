@@ -909,7 +909,7 @@
     </objectFormat>
     <objectFormat>
         <formatId>text/markdown</formatId>
-        <formatName>Markdown file (pandoc markdown compatible)</formatName>
+        <formatName>Markdown file</formatName>
         <formatType>DATA</formatType>
         <mediaType name="text/markdown"/>
         <extension>md</extension>
