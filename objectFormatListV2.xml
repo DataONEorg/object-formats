@@ -916,7 +916,7 @@
     </objectFormat>
     <objectFormat>
         <formatId>text/x-rmarkdown</formatId>
-        <formatName>R Markdown file (pandoc markdown compatible)</formatName>
+        <formatName>R Markdown file</formatName>
         <formatType>DATA</formatType>
         <mediaType name="text/markdown"/>
         <extension>Rmd</extension>
