@@ -1033,4 +1033,11 @@
         <mediaType name="application/ld+json"/>
         <extension>jsonld</extension>
     </objectFormat>
+    <objectFormat>
+        <formatId>application/geopackage+sqlite3</formatId>
+        <formatName>GeoPackage Encoding Standard (OGC) Format Family</formatName>
+        <formatType>DATA</formatType>
+        <mediaType name="application/geopackage+sqlite3"/>
+        <extension>gpkg</extension>
+    </objectFormat>
 </d1v2:objectFormatList>
