@@ -1,6 +1,6 @@
 | | |
 |--------|------------|
-|Release: | [![v1.25](https://img.shields.io/badge/object--formats-v1.25-blue.svg)](https://github.com/DataONEorg/object-formats/releases/tag/v1.25) |
+|Release: | [![v1.26](https://img.shields.io/badge/object--formats-v1.26-blue.svg)](https://github.com/DataONEorg/object-formats/releases/tag/v1.26) |
 |main: | ![main](https://github.com/DataONEorg/object-formats/actions/workflows/validate.yml/badge.svg?branch=main) |
 |develop: | ![develop](https://github.com/DataONEorg/object-formats/actions/workflows/validate.yml/badge.svg?branch=develop) |
 
@@ -14,6 +14,10 @@ For example, the `formatId` for PNG images is `image/png` and matches the media 
 because the media type is specific to one file format. In contrast, the `formatId` for METS is
 `http://www.loc.gov/METS/`, which is more specific than the Media type which is `text/xml` and which
 is shared across many formats in the XML family.
+
+The current set of defined formats in use in DataONE is always accessible from the DataONE Object Formats service:
+
+- https://cn.dataone.org/cn/v2/formats
 
 ## Related work
 

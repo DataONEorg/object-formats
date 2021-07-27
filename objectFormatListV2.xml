@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="/cn/xslt/dataone.types.v1.xsl"?>
-<d1v2:objectFormatList count="144" start="0" total="144" 
+<d1v2:objectFormatList count="151" start="0" total="151" 
     xmlns:d1v2="http://ns.dataone.org/service/types/v2.0" 
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
     xsi:schemaLocation="http://ns.dataone.org/service/types/v2.0 dataoneTypes_v2.0.xsd">
@@ -113,6 +113,34 @@
     <objectFormat>
         <formatId>CF-1.4</formatId>
         <formatName>NetCDF Climate and Forecast Metadata Convention, version 1.4</formatName>
+        <formatType>DATA</formatType>
+        <mediaType name="application/netcdf"/>
+        <extension>nc</extension>
+    </objectFormat>
+    <objectFormat>
+        <formatId>CF-1.5</formatId>
+        <formatName>NetCDF Climate and Forecast Metadata Convention, version 1.5</formatName>
+        <formatType>DATA</formatType>
+        <mediaType name="application/netcdf"/>
+        <extension>nc</extension>
+    </objectFormat>
+    <objectFormat>
+        <formatId>CF-1.6</formatId>
+        <formatName>NetCDF Climate and Forecast Metadata Convention, version 1.6</formatName>
+        <formatType>DATA</formatType>
+        <mediaType name="application/netcdf"/>
+        <extension>nc</extension>
+    </objectFormat>
+    <objectFormat>
+        <formatId>CF-1.7</formatId>
+        <formatName>NetCDF Climate and Forecast Metadata Convention, version 1.7</formatName>
+        <formatType>DATA</formatType>
+        <mediaType name="application/netcdf"/>
+        <extension>nc</extension>
+    </objectFormat>
+    <objectFormat>
+        <formatId>netCDF-CF</formatId>
+        <formatName>NetCDF Climate and Forecast Metadata Convention</formatName>
         <formatType>DATA</formatType>
         <mediaType name="application/netcdf"/>
         <extension>nc</extension>
@@ -909,14 +937,14 @@
     </objectFormat>
     <objectFormat>
         <formatId>text/markdown</formatId>
-        <formatName>Markdown file (pandoc markdown compatible)</formatName>
+        <formatName>Markdown file</formatName>
         <formatType>DATA</formatType>
         <mediaType name="text/markdown"/>
         <extension>md</extension>
     </objectFormat>
     <objectFormat>
         <formatId>text/x-rmarkdown</formatId>
-        <formatName>R Markdown file (pandoc markdown compatible)</formatName>
+        <formatName>R Markdown file</formatName>
         <formatType>DATA</formatType>
         <mediaType name="text/markdown"/>
         <extension>Rmd</extension>
@@ -1032,5 +1060,26 @@
         <formatType>METADATA</formatType>
         <mediaType name="application/ld+json"/>
         <extension>jsonld</extension>
+    </objectFormat>
+    <objectFormat>
+        <formatId>application/geopackage+sqlite3</formatId>
+        <formatName>GeoPackage Encoding Standard (OGC) Format Family</formatName>
+        <formatType>DATA</formatType>
+        <mediaType name="application/geopackage+sqlite3"/>
+        <extension>gpkg</extension>
+    </objectFormat>
+    <objectFormat>
+        <formatId>application/geo+json</formatId>
+        <formatName>GeoJSON</formatName>
+        <formatType>DATA</formatType>
+        <mediaType name="application/geo+json"/>
+        <extension>json</extension>
+    </objectFormat>
+    <objectFormat>
+        <formatId>application/vnd.gdb+zip</formatId>
+        <formatName>Esri File Geodatabase (zipped)</formatName>
+        <formatType>DATA</formatType>
+        <mediaType name="application/vnd.gdb+zip"/>
+        <extension>zip</extension>
     </objectFormat>
 </d1v2:objectFormatList>
