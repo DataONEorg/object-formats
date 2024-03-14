@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="/cn/xslt/dataone.types.v1.xsl"?>
-<d1v2:objectFormatList count="151" start="0" total="151" 
+<d1v2:objectFormatList count="155" start="0" total="155" 
     xmlns:d1v2="http://ns.dataone.org/service/types/v2.0" 
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
     xsi:schemaLocation="http://ns.dataone.org/service/types/v2.0 dataoneTypes_v2.0.xsd">
@@ -1081,5 +1081,33 @@
         <formatType>DATA</formatType>
         <mediaType name="application/vnd.gdb+zip"/>
         <extension>zip</extension>
+    </objectFormat>
+    <objectFormat>
+        <formatId>application/vnd.apache.parquet</formatId>
+        <formatName>Apache Parquet</formatName>
+        <formatType>DATA</formatType>
+        <mediaType name="application/vnd.apache.parquet"/>
+        <extension>parquet</extension>
+    </objectFormat>
+    <objectFormat>
+        <formatId>application/vnd.sqlite3</formatId>
+        <formatName>SQLite Database</formatName>
+        <formatType>DATA</formatType>
+        <mediaType name="application/vnd.sqlite3"/>
+        <extension>db</extension>
+    </objectFormat>
+    <objectFormat>
+        <formatId>https://ns.dataone.org/service/types/v2.0#SystemMetadata</formatId>
+        <formatName>System Metadata</formatName>
+        <formatType>METADATA</formatType>
+        <mediaType name="text/xml"/>
+        <extension>xml</extension>
+    </objectFormat>
+    <objectFormat>
+        <formatId>http://ns.dataone.org/service/types/v2.0#ObjectFormatList</formatId>
+        <formatName>Object Format List</formatName>
+        <formatType>METADATA</formatType>
+        <mediaType name="text/xml"/>
+        <extension>xml</extension>
     </objectFormat>
 </d1v2:objectFormatList>
