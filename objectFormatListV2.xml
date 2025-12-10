@@ -175,7 +175,7 @@
     </objectFormat>
     <objectFormat>
         <formatId>FITS</formatId>
-        <formatName>Flexible Image Transport System</formatName>
+        <formatName>Flexible Image Transport System (FITS)</formatName>
         <formatType>DATA</formatType>
         <mediaType name="application/fits"/>
         <extension>fits</extension>
@@ -184,7 +184,7 @@
         <formatId>ASDF</formatId>
         <formatName>Advanced Scientific Data Format (ASDF, pronounced “Az-diff”)</formatName>
         <formatType>DATA</formatType>
-        <mediaType name=""/>
+        <mediaType name="application/x-asdf+yaml"/>
         <extension>asdf</extension>
     </objectFormat>    
     <objectFormat>
@@ -205,14 +205,14 @@
         <formatId>Zarr</formatId>
         <formatName>Zarr</formatName>
         <formatType>DATA</formatType>
-        <mediaType name=""/>
+        <mediaType name="application/x+zarr"/>
         <extension>zarr</extension>
     </objectFormat>      
     <objectFormat>
         <formatId>GPX-1.1</formatId>
         <formatName>Global Positioning System XML 1.1 (GPX)</formatName>
         <formatType>DATA</formatType>
-        <mediaType name=""/>
+        <mediaType name="application/gpx+xml"/>
         <extension>gpx</extension>
     </objectFormat>    
     <objectFormat>
