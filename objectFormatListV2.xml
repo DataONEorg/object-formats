@@ -76,6 +76,13 @@
         <extension>xml</extension>
     </objectFormat>
     <objectFormat>
+        <formatId>CDF</formatId>
+        <formatName>Common Data Format (CDF)</formatName>
+        <formatType>DATA</formatType>
+        <mediaType name="application/x-cdf"/>
+        <extension>ncdf</extension>
+    </objectFormat>    
+    <objectFormat>
         <formatId>http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2</formatId>
         <formatName>NetCDF Markup Language, version 2.2</formatName>
         <formatType>METADATA</formatType>
@@ -167,6 +174,20 @@
         <extension>xml</extension>
     </objectFormat>
     <objectFormat>
+        <formatId>FITS</formatId>
+        <formatName>Flexible Image Transport System</formatName>
+        <formatType>DATA</formatType>
+        <mediaType name="application/fits"/>
+        <extension>fits</extension>
+    </objectFormat>   
+    <objectFormat>
+        <formatId>ASDF</formatId>
+        <formatName>Advanced Scientific Data Format (ASDF, pronounced “Az-diff”)</formatName>
+        <formatType>DATA</formatType>
+        <mediaType name=""/>
+        <extension>asdf</extension>
+    </objectFormat>    
+    <objectFormat>
         <formatId>netCDF-3</formatId>
         <formatName>Network Common Data Format, version 3</formatName>
         <formatType>DATA</formatType>
@@ -180,6 +201,20 @@
         <mediaType name="application/netcdf"/>
         <extension>nc</extension>
     </objectFormat>
+    <objectFormat>
+        <formatId>Zarr</formatId>
+        <formatName>Zarr</formatName>
+        <formatType>DATA</formatType>
+        <mediaType name=""/>
+        <extension>zarr</extension>
+    </objectFormat>      
+    <objectFormat>
+        <formatId>GPX-1.1</formatId>
+        <formatName>Global Positioning System XML 1.1 (GPX)</formatName>
+        <formatType>DATA</formatType>
+        <mediaType name=""/>
+        <extension>gpx</extension>
+    </objectFormat>    
     <objectFormat>
         <formatId>text/plain</formatId>
         <formatName>Plain Text</formatName>
