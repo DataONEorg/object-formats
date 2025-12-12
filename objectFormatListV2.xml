@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="/cn/xslt/dataone.types.v1.xsl"?>
-<d1v2:objectFormatList count="155" start="0" total="155" 
+<d1v2:objectFormatList count="160" start="0" total="160" 
     xmlns:d1v2="http://ns.dataone.org/service/types/v2.0" 
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
     xsi:schemaLocation="http://ns.dataone.org/service/types/v2.0 dataoneTypes_v2.0.xsd">
@@ -74,14 +74,7 @@
         <formatType>METADATA</formatType>
         <mediaType name="text/xml"/>
         <extension>xml</extension>
-    </objectFormat>
-    <objectFormat>
-        <formatId>CDF</formatId>
-        <formatName>Common Data Format (CDF)</formatName>
-        <formatType>DATA</formatType>
-        <mediaType name="application/x-cdf"/>
-        <extension>ncdf</extension>
-    </objectFormat>    
+    </objectFormat> 
     <objectFormat>
         <formatId>http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2</formatId>
         <formatName>NetCDF Markup Language, version 2.2</formatName>
@@ -174,20 +167,6 @@
         <extension>xml</extension>
     </objectFormat>
     <objectFormat>
-        <formatId>FITS</formatId>
-        <formatName>Flexible Image Transport System (FITS)</formatName>
-        <formatType>DATA</formatType>
-        <mediaType name="application/fits"/>
-        <extension>fits</extension>
-    </objectFormat>   
-    <objectFormat>
-        <formatId>ASDF</formatId>
-        <formatName>Advanced Scientific Data Format (ASDF, pronounced “Az-diff”)</formatName>
-        <formatType>DATA</formatType>
-        <mediaType name="application/x-asdf+yaml"/>
-        <extension>asdf</extension>
-    </objectFormat>    
-    <objectFormat>
         <formatId>netCDF-3</formatId>
         <formatName>Network Common Data Format, version 3</formatName>
         <formatType>DATA</formatType>
@@ -200,20 +179,6 @@
         <formatType>DATA</formatType>
         <mediaType name="application/netcdf"/>
         <extension>nc</extension>
-    </objectFormat>
-    <objectFormat>
-        <formatId>Zarr</formatId>
-        <formatName>Zarr</formatName>
-        <formatType>DATA</formatType>
-        <mediaType name="application/x+zarr"/>
-        <extension>zarr</extension>
-    </objectFormat>      
-    <objectFormat>
-        <formatId>GPX-1.1</formatId>
-        <formatName>Global Positioning System XML 1.1 (GPX)</formatName>
-        <formatType>DATA</formatType>
-        <mediaType name="application/gpx+xml"/>
-        <extension>gpx</extension>
     </objectFormat>    
     <objectFormat>
         <formatId>text/plain</formatId>
@@ -1145,4 +1110,39 @@
         <mediaType name="text/xml"/>
         <extension>xml</extension>
     </objectFormat>
+    <objectFormat>
+        <formatId>CDF</formatId>
+        <formatName>Common Data Format (CDF)</formatName>
+        <formatType>DATA</formatType>
+        <mediaType name="application/x-cdf"/>
+        <extension>cdf</extension>
+    </objectFormat>       
+    <objectFormat>
+        <formatId>FITS</formatId>
+        <formatName>Flexible Image Transport System (FITS)</formatName>
+        <formatType>DATA</formatType>
+        <mediaType name="application/fits"/>
+        <extension>fits</extension>
+    </objectFormat>   
+    <objectFormat>
+        <formatId>Zarr</formatId>
+        <formatName>Zarr</formatName>
+        <formatType>DATA</formatType>
+        <mediaType name="application/x+zarr"/>
+        <extension>zarr</extension>
+    </objectFormat>       
+    <objectFormat>
+        <formatId>ASDF</formatId>
+        <formatName>Advanced Scientific Data Format (ASDF, pronounced “Az-diff”)</formatName>
+        <formatType>DATA</formatType>
+        <mediaType name="application/x-asdf+yaml"/>
+        <extension>asdf</extension>
+    </objectFormat>  
+    <objectFormat>
+        <formatId>GPX-1.1</formatId>
+        <formatName>Global Positioning System XML 1.1 (GPX)</formatName>
+        <formatType>DATA</formatType>
+        <mediaType name="application/gpx+xml"/>
+        <extension>gpx</extension>
+    </objectFormat>      
 </d1v2:objectFormatList>
