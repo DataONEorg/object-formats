@@ -1111,14 +1111,14 @@
         <extension>xml</extension>
     </objectFormat>
     <objectFormat>
-        <formatId>CDF</formatId>
+        <formatId>application/x-cdf</formatId>
         <formatName>Common Data Format (CDF)</formatName>
         <formatType>DATA</formatType>
         <mediaType name="application/x-cdf"/>
         <extension>cdf</extension>
     </objectFormat>       
     <objectFormat>
-        <formatId>FITS</formatId>
+        <formatId>application/fits</formatId>
         <formatName>Flexible Image Transport System (FITS)</formatName>
         <formatType>DATA</formatType>
         <mediaType name="application/fits"/>
