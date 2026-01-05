@@ -1133,13 +1133,13 @@
     </objectFormat>       
     <objectFormat>
         <formatId>ASDF</formatId>
-        <formatName>Advanced Scientific Data Format (ASDF, pronounced “Az-diff”)</formatName>
+        <formatName>Advanced Scientific Data Format (ASDF)</formatName>
         <formatType>DATA</formatType>
         <mediaType name="application/x-asdf+yaml"/>
         <extension>asdf</extension>
     </objectFormat>  
     <objectFormat>
-        <formatId>GPX</formatId>
+        <formatId>application/gpx+xml</formatId>
         <formatName>Global Positioning System XML (GPX)</formatName>
         <formatType>DATA</formatType>
         <mediaType name="application/gpx+xml"/>
