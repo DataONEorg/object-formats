@@ -1139,8 +1139,8 @@
         <extension>asdf</extension>
     </objectFormat>  
     <objectFormat>
-        <formatId>GPX-1.1</formatId>
-        <formatName>Global Positioning System XML 1.1 (GPX)</formatName>
+        <formatId>GPX</formatId>
+        <formatName>Global Positioning System XML (GPX)</formatName>
         <formatType>DATA</formatType>
         <mediaType name="application/gpx+xml"/>
         <extension>gpx</extension>
