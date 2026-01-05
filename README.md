@@ -1,6 +1,6 @@
 | | |
 |--------|------------|
-|Release: | [![v1.27](https://img.shields.io/badge/object--formats-v1.27-blue.svg)](https://github.com/DataONEorg/object-formats/releases/tag/v1.27) |
+|Release: | [![v1.28](https://img.shields.io/badge/object--formats-v1.28-blue.svg)](https://github.com/DataONEorg/object-formats/releases/tag/v1.28) |
 |main: | ![main](https://github.com/DataONEorg/object-formats/actions/workflows/validate.yml/badge.svg?branch=main) |
 |develop: | ![develop](https://github.com/DataONEorg/object-formats/actions/workflows/validate.yml/badge.svg?branch=develop) |
 
